@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dash_grad5">
+
+    <RelativeLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hostel7"
+            android:backgroundTint="#59FFFFFF"
+            android:backgroundTintMode="src_over"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_weight="0"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-smallcaps"
+                android:maxLines="1"
+                android:text="Hello! "
+                android:textColor="#021681"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="75dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-smallcaps"
+                android:maxLines="1"
+                android:textColor="#0B000C"
+                android:textSize="27sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:text="Welcome to BMSET Hostels"
+            android:textColor="#04146F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="252dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Email :"
+        android:textColor="#024204"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="25dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="USN :"
+        android:textColor="#024E05"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="25dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Address :"
+        android:textColor="#012502"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView11"
+        android:layout_marginTop="25dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Contact No. :"
+        android:textColor="#023D04"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--<TextView
+        android:id="@+id/textView8"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="15dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Room No. :"
+        android:textColor="#FCFBFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView12"
+        android:layout_marginTop="25dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Branch :"
+        android:textColor="#023F04"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="115dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="25dp"
+        android:background="#B2B696"
+        android:gravity="center"
+        android:text="Gender :"
+        android:textColor="#024405"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@+id/textView4"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView13"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView5"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!--<TextView
+        android:id="@+id/textView15"
+        android:layout_width="252dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView14"
+        android:layout_toRightOf="@+id/textView8"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:text="TextViewr"
+        android:textColor="#FCFBFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView14"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView12"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView11"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView7"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/textView18"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/textView6"
+        android:background="#DCE4AF"
+        android:gravity="center"
+        android:textColor="#701D03"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>

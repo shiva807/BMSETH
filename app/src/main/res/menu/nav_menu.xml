@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="General" >
+        <menu>
+            <item
+                android:id="@+id/dashboard"
+                android:title="Dashboard"
+                android:icon="@drawable/ic_dasboard1"/>
+
+            <item
+                android:id="@+id/edit"
+                android:title="Edit Details"
+                android:icon="@drawable/ic_edit_"/>
+
+            <item
+                android:id="@+id/room"
+                android:title="Room Details"
+                android:icon="@drawable/ic_room"/>
+
+            <item
+                android:id="@+id/warden"
+                android:title="Warden Details"
+                android:icon="@drawable/ic_ward_inter"/>
+        </menu>
+
+
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:title="About Us"
+                android:icon="@drawable/ic_aboutus"/>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+
+</menu>

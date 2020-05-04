@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "329903372154",
+    "firebase_url": "https://bmshostels-d32ac.firebaseio.com",
+    "project_id": "bmshostels-d32ac",
+    "storage_bucket": "bmshostels-d32ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329903372154:android:94efa912710a84214d08c3",
+        "android_client_info": {
+          "package_name": "com.example.bmseth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329903372154-6fci1kqkq44cqro33b7jchecaq6aog69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaX614e5UX0_-k-hcpQFJa0gFoqhjUIZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329903372154-6fci1kqkq44cqro33b7jchecaq6aog69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

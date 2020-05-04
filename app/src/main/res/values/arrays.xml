@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="welcome">
+        <item>Welcome</item>
+        <item>to</item>
+        <item>BMS Hostels</item>
+
+    </string-array>
+</resources>
